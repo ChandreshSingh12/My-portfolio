@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Icon.png">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+        <li><a href="#home"><img src="Icon.png" width="30px" alt=""></a></li>
+      
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links " id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button id="themeToggle">
+              <span id="themeIcon" class="sun-icon">☀️</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1 class="hero-heading">Welcome to Creative Space</h1>
+      <p>I am a passionate developers and designers. Explore my projects!</p>
+      <a href="#projects" class="btn">Explore Projects</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="Screenshot 2025-02-02 133112.png" alt="Your Photo">
+        <p>Frontend-Developer</p>
+      </div>
+      <div class="about-text">
+        <p>
+          I am committed to creating engaging and beautiful experiences. My mission is to bring ideas to life through creativity and innovation.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Our Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="image.png" alt="Project 1 Image">
+          <h3>Project 1</h3>
+          <p>AA website that informs gamers about gaming updates or free to play games.</p>
+          <a href="https://yaci-gamerz.netlify.app/"><button class="red-button">See here</button></a>
+        </div>
+        <div class="project-card">
+          <img src="Screenshot 2025-02-02 114125.png" alt="Project 2 Image">
+          <h3>Project 2</h3>
+          <p>Game created to fresh your mood and increase your mouse speed(or hand spped for mobile users).</p>
+          <a href="https://chiragsingh11.github.io/Game"><button class="blue-button">See here</button></a>
+        </div>
+        <div class="project-card">
+          <img src="quiz.png" alt="Project 3 Image">
+          <h3>Project 3</h3>
+          <p>A quiz website with different subjects</p>
+          <a href="chiragsingh11.github.io/Quiz/"><button class="purple-button">See here</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>I'd love to hear from you! Contact us at <a href="mailto:forcomputerofchirag@gmail.com">forcomputerofchirag@gmail.com</a>.</p>
+      <p><a href="https://x.com/ChandreshS92552">Or on X </a>.</p>
+    </div>
+  </section>
+</body>
+</html>
